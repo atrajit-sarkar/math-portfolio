@@ -4,7 +4,7 @@ email: atrajit.sarkar@alumni.iitd.ac.in
 description: >-
   MSc in Mathematics from IIT Delhi. PhD Aspirant specializing in Number Theory, 
   Real & Complex Analysis, and Algebra. Currently seeking PhD opportunities.
-baseurl: "/math-portfolio" # Only if using project site, leave empty for personal site
+baseurl: "" # Only if using project site, leave empty for personal site
 url: "https://atrajit-sarkar.github.io"
 
 # Author information
@@ -36,16 +36,18 @@ collections:
 navigation:
   - title: Home
     url: /
-  - title: Posts
-    url: /posts/
   - title: Education
     url: /education/
   - title: Achievements & Awards
     url: /achievements/
   - title: CV
     url: /cv/
+  - title: Research & Study
+    url: /research-and-study/
   - title: Contact
     url: /contact/
+  - title: Posts
+    url: /posts/
 
 # Theme settings
 theme_color: "#2c3e50"

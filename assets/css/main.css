@@ -157,7 +157,8 @@ a:hover {
     font-size: inherit;
 }
 
-.nav-more-btn:hover {
+.nav-more-btn:hover,
+.nav-dropdown.show .nav-more-btn {
     background-color: var(--secondary-color);
     color: white;
 }

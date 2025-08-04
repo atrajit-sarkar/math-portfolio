@@ -214,6 +214,16 @@ a:hover {
     border: 4px solid rgba(255, 255, 255, 0.2);
     box-shadow: var(--shadow-hover);
     object-fit: cover;
+    display: block;
+}
+
+.math-formula {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+    font-family: 'Times New Roman', serif;
+    font-weight: 400;
 }
 
 .cta-buttons {

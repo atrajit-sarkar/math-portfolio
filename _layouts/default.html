@@ -43,11 +43,25 @@
                 </a>
                 
                 <div class="nav-menu" id="nav-menu">
-                    {% for item in site.navigation %}
-                    <a href="{{ item.url | relative_url }}" class="nav-link {% if page.url == item.url %}active{% endif %}">
-                        {{ item.title }}
-                    </a>
-                    {% endfor %}
+                    <div class="nav-items" id="nav-items">
+                        {% for item in site.navigation %}
+                        <a href="{{ item.url | relative_url }}" class="nav-link {% if page.url == item.url %}active{% endif %}" data-title="{{ item.title }}">
+                            {{ item.title }}
+                        </a>
+                        {% endfor %}
+                    </div>
+                    
+                    <div class="nav-dropdown" id="nav-dropdown" style="display: none;">
+                        <button class="nav-more-btn" id="nav-more-btn">
+                            More
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                            </svg>
+                        </button>
+                        <div class="nav-dropdown-content" id="nav-dropdown-content">
+                            <!-- Overflow items will be moved here -->
+                        </div>
+                    </div>
                 </div>
                 
                 <div class="nav-toggle" id="nav-toggle">
@@ -123,6 +137,73 @@
             navToggle.classList.toggle('active');
         });
 
+        // Responsive navbar with dropdown
+        function handleNavbarOverflow() {
+            const navItems = document.getElementById('nav-items');
+            const navDropdown = document.getElementById('nav-dropdown');
+            const navDropdownContent = document.getElementById('nav-dropdown-content');
+            const navMoreBtn = document.getElementById('nav-more-btn');
+            
+            if (!navItems || !navDropdown) return;
+            
+            const navLinks = Array.from(navItems.children);
+            const containerWidth = navMenu.offsetWidth - 120; // Reserve space for logo and toggle
+            let totalWidth = 0;
+            let visibleItems = [];
+            let hiddenItems = [];
+            
+            // Reset all items to visible first
+            navLinks.forEach(link => {
+                link.style.display = '';
+                navItems.appendChild(link);
+            });
+            navDropdown.style.display = 'none';
+            navDropdownContent.innerHTML = '';
+            
+            // Calculate which items fit
+            navLinks.forEach(link => {
+                const linkWidth = link.offsetWidth + 8; // Add gap
+                if (totalWidth + linkWidth <= containerWidth - (hiddenItems.length > 0 ? 80 : 0)) {
+                    totalWidth += linkWidth;
+                    visibleItems.push(link);
+                } else {
+                    hiddenItems.push(link);
+                }
+            });
+            
+            // Move overflow items to dropdown
+            if (hiddenItems.length > 0) {
+                navDropdown.style.display = 'block';
+                hiddenItems.forEach(link => {
+                    const dropdownLink = link.cloneNode(true);
+                    navDropdownContent.appendChild(dropdownLink);
+                    link.style.display = 'none';
+                });
+            }
+        }
+        
+        // Dropdown toggle
+        const navMoreBtn = document.getElementById('nav-more-btn');
+        const navDropdown = document.getElementById('nav-dropdown');
+        
+        if (navMoreBtn) {
+            navMoreBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                navDropdown.classList.toggle('show');
+            });
+        }
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', () => {
+            if (navDropdown) {
+                navDropdown.classList.remove('show');
+            }
+        });
+        
+        // Handle resize
+        window.addEventListener('resize', handleNavbarOverflow);
+        window.addEventListener('load', handleNavbarOverflow);
+        
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {

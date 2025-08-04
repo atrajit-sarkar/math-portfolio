@@ -5,45 +5,17 @@ subtitle: Academic Journey
 permalink: /education/
 ---
 
-## 10th Grade
+## Educational Background
 
-**Institution & Board/University:** Nabadwip Bakultala High School, Nadia, West Bengal, India  
-**Board:** West Bengal Board of Secondary Education, Kolkata, India  
-**Year of Passing:** 2017  
-**Percentage:** <span class="education-percentage">94%</span>
+| Level | Institution | Board/University | Year | Result |
+|-------|-------------|------------------|------|--------|
+| **10th Grade** | Nabadwip Bakultala High School, Nadia, West Bengal, India | West Bengal Board of Secondary Education, Kolkata, India | 2017 | <span class="education-percentage">94%</span> |
+| **12th Grade** | Nabadwip Bakultala High School, Nadia, West Bengal, India | West Bengal Council for Higher Secondary Education, Kolkata, India | 2019 | <span class="education-percentage">93.80%</span> |
+| **Bachelor's Degree<br>(Mathematics, Honours)** | Ramakrishna Mission Vidyamandira, Belur Math, Howrah, West Bengal, India | University of Calcutta, Kolkata, India | 2022 | <span class="education-percentage">79.90%</span> |
+| **Master's Degree<br>(Mathematics)** | Indian Institute of Technology, New Delhi, Hauz Khas, India | IIT Delhi | 2024 | <span class="education-percentage">74.53%</span> |
+| **M.Phil./Ph.D.** | Currently seeking opportunities | - | - | *In Progress* |
 
----
-
-## 12th Grade
-
-**Institution & Board/University:** Nabadwip Bakultala High School, Nadia, West Bengal, India  
-**Board:** West Bengal Council for Higher Secondary Education, Kolkata, India  
-**Year of Passing:** 2019  
-**Percentage:** <span class="education-percentage">93.80%</span>
-
----
-
-## Bachelor Degree (Mathematics, Honours)
-
-**Institution & Board/University:** Ramakrishna Mission Vidyamandira, Belur Math, Howrah, West Bengal, India  
-**Affiliated to:** University of Calcutta, Kolkata, India  
-**Year of Passing:** 2022  
-**Percentage:** <span class="education-percentage">79.90%</span>
-
----
-
-## Master Degree (Mathematics)
-
-**Institution & Board/University:** Indian Institute of Technology, New Delhi, Hauz Khas, India  
-**Year of Passing:** 2024  
-**Percentage:** <span class="education-percentage">74.53%</span>
-
----
-
-## M.Phil./Ph.D.
-
-**Institution & Board/University:** Currently seeking opportunities
-
+### Current Status
 *Currently looking for PhD positions in Mathematics, specializing in Number Theory, Real and Complex Analysis, and Algebra.*
 
 ---

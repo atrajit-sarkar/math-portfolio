@@ -1,0 +1,17 @@
+<!-- Favicon Data URI Generator -->
+<!-- Copy the content below and paste it into favicon.ico or use it as data URI -->
+
+<!-- 
+This is the base64 encoded version of a transparent AS favicon.
+You can use this or generate a proper ICO file using the SVG above.
+
+To create a proper favicon.ico:
+1. Open the favicon-generator.html file in your browser
+2. Take a screenshot of the 32x32 version (with transparent background)
+3. Go to https://favicon.io/favicon-converter/
+4. Upload the image and download the favicon.ico
+5. Replace this file with the downloaded favicon.ico
+-->
+
+<!-- SVG as Data URI for modern browsers (Transparent Background - Large Size) -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0idGV4dEdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMmMzZTUwO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzNDk4ZGI7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8dGV4dCB4PSIxNiIgeT0iMjYiIGZvbnQtZmFtaWx5PSJJbnRlciwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI5MDAiIAogICAgICAgIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9InVybCgjdGV4dEdyYWQpIiBsZXR0ZXItc3BhY2luZz0iLTJweCI+QVM8L3RleHQ+Cjwvc3ZnPgo=" />

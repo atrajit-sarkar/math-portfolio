@@ -1,0 +1,74 @@
+# Site settings
+title: Atrajit Sarkar - Mathematics Portfolio
+email: atrajit.sarkar@alumni.iitd.ac.in
+description: >-
+  MSc in Mathematics from IIT Delhi. PhD Aspirant specializing in Number Theory, 
+  Real & Complex Analysis, and Algebra. Currently seeking PhD opportunities.
+baseurl: "/math-portfolio" # Only if using project site, leave empty for personal site
+url: "https://atrajit-sarkar.github.io"
+
+# Author information
+author:
+  name: Atrajit Sarkar
+  email: atrajit.sarkar@alumni.iitd.ac.in
+  linkedin: https://www.linkedin.com/in/atrajit-sarkar-1729xxx1729/
+  github: https://github.com/atrajit-sarkar
+  twitter: https://x.com/AtrajitSarkar
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Kramdown settings for math
+kramdown:
+  math_engine: mathjax
+  input: GFM
+  syntax_highlighter: rouge
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Education
+    url: /education/
+  - title: Achievements & Awards
+    url: /achievements/
+  - title: CV
+    url: /cv/
+  - title: Contact
+    url: /contact/
+
+# Theme settings
+theme_color: "#2c3e50"
+accent_color: "#3498db"
+
+# Social links
+social:
+  github: atrajit-sarkar
+  linkedin: atrajit-sarkar-1729xxx1729
+  twitter: AtrajitSarkar
+  email: atrajit.sarkar@alumni.iitd.ac.in
+
+# Plugin settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

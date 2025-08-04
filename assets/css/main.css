@@ -184,13 +184,13 @@ a:hover {
 .nav-dropdown-content .nav-link {
     display: block;
     padding: 0.75rem 1rem;
-    border-radius: 0;
-    margin: 0;
+    border-radius: var(--border-radius);
+    margin: 0.125rem 0.5rem;
 }
 
 .nav-dropdown-content .nav-link:hover {
-    background-color: var(--bg-secondary);
-    color: var(--text-color);
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 .nav-dropdown-content .nav-link.active {

@@ -2266,15 +2266,33 @@ input[type="checkbox"] {
 /* Links in Markdown content */
 .main-content > p:not([class]) a,
 .main-content > ul:not([class]) a,
-.main-content > ol:not([class]) a {
+.main-content > ol:not([class]) a,
+.main-content h3 a,
+.main-content h4 a,
+.main-content li a {
     color: var(--secondary-color);
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: var(--transition);
+    font-weight: 500;
 }
 
 .main-content > p:not([class]) a:hover,
 .main-content > ul:not([class]) a:hover,
-.main-content > ol:not([class]) a:hover {
+.main-content > ol:not([class]) a:hover,
+.main-content h3 a:hover,
+.main-content h4 a:hover,
+.main-content li a:hover {
     border-bottom-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/* Ensure inline code links are properly styled */
+.main-content code a {
+    color: var(--secondary-color) !important;
+    text-decoration: underline;
+}
+
+.main-content code a:hover {
+    color: var(--primary-color) !important;
 }

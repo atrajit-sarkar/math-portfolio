@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 <!-- Hero Section -->
@@ -61,6 +61,39 @@ layout: default
         </div>
     </div>
 </section>
+
+## Example: Adding New Content with Markdown
+
+Now you can easily add new content using Markdown syntax. Here are some examples:
+
+### Research Interests
+
+- **Number Theory**: Prime numbers, modular forms, and analytic number theory
+- **Real Analysis**: Measure theory, functional analysis, and harmonic analysis
+- **Complex Analysis**: Riemann surfaces, complex dynamics, and holomorphic functions
+- **Algebra**: Group theory, ring theory, and field extensions
+
+### Mathematical Notation Examples
+
+You can write inline math like $\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s}$ or display equations:
+
+$$\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}$$
+
+### Code Blocks
+
+```python
+def riemann_zeta(s, terms=1000):
+    """Approximate the Riemann zeta function"""
+    return sum(1/n**s for n in range(1, terms+1))
+```
+
+### Links and References
+
+- [My Research Papers](https://example.com/papers)
+- [Mathematical Blog Posts](/posts/)
+- [Contact for Collaboration](/contact/)
+
+*Note: The content above this line is just an example of how you can now add Markdown content. You can edit or remove this section as needed.*
 
 <!-- Quick Links Section -->
 <section class="quick-links">
@@ -126,3 +159,8 @@ layout: default
         </div>
     </div>
 </section>
+
+
+
+
+

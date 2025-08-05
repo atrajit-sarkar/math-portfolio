@@ -1411,3 +1411,175 @@ input[type="checkbox"] {
         padding: 0;
     }
 }
+
+/* Home layout - target only Markdown content between HTML sections */
+.main-content > h1:not(.page-title):not([class]),
+.main-content > h2:not(.section-title):not([class]),
+.main-content > h3:not([class]),
+.main-content > h4:not([class]),
+.main-content > h5:not([class]),
+.main-content > h6:not([class]),
+.main-content > p:not([class]),
+.main-content > ul:not([class]),
+.main-content > ol:not([class]),
+.main-content > blockquote:not([class]),
+.main-content > pre:not([class]),
+.main-content > table:not([class]),
+.main-content > hr:not([class]) {
+    /* Apply page-content styling to Markdown-generated elements only */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.main-content > h1:not(.page-title):not([class]),
+.main-content > h2:not(.section-title):not([class]) {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    color: var(--primary-color);
+}
+
+.main-content > h1:not(.page-title):not([class]) {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.main-content > h2:not(.section-title):not([class]) {
+    font-size: 2rem;
+}
+
+.main-content > h3:not([class]) {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main-content > h4:not([class]),
+.main-content > h5:not([class]),
+.main-content > h6:not([class]) {
+    color: var(--primary-color);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.main-content > p:not([class]),
+.main-content > ul:not([class]),
+.main-content > ol:not([class]) {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.main-content > ul:not([class]),
+.main-content > ol:not([class]) {
+    padding-left: 4rem;
+}
+
+.main-content > ul:not([class]) li,
+.main-content > ol:not([class]) li {
+    margin-bottom: 0.5rem;
+}
+
+.main-content > blockquote:not([class]) {
+    border-left: 4px solid var(--secondary-color);
+    padding-left: 1.5rem;
+    margin: 2rem auto;
+    font-style: italic;
+    color: var(--text-muted);
+}
+
+.main-content > pre:not([class]),
+.main-content > .highlight,
+.main-content > div.highlight {
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow);
+    /* Apply page-content styling to Markdown-generated elements only */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.main-content > .highlight pre,
+.main-content > div.highlight pre {
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+
+.main-content > pre:not([class]) code {
+    color: var(--text-color);
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.main-content > .highlight code,
+.main-content > div.highlight code {
+    color: var(--text-color);
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.main-content > hr:not([class]) {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 3rem auto;
+}
+
+.main-content > table:not([class]) {
+    border-collapse: collapse;
+    margin: 2rem auto;
+}
+
+.main-content > table:not([class]) th,
+.main-content > table:not([class]) td {
+    border: 1px solid var(--border-color);
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.main-content > table:not([class]) th {
+    background-color: var(--bg-secondary);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* Links in Markdown content */
+.main-content > p:not([class]) a,
+.main-content > ul:not([class]) a,
+.main-content > ol:not([class]) a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.main-content > p:not([class]) a:hover,
+.main-content > ul:not([class]) a:hover,
+.main-content > ol:not([class]) a:hover {
+    border-bottom-color: var(--secondary-color);
+}

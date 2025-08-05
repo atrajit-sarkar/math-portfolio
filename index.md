@@ -11,7 +11,7 @@ layout: home
                     <span class="status-indicator"></span>
                     Currently looking for PhD
                 </div>
-                <img src="https://atrajit-sarkar.gongobongo.org/data/profile.jpg" 
+                <img src="/atrajit.jpg" 
                      alt="Atrajit Sarkar" 
                      class="profile-image">
             </div>

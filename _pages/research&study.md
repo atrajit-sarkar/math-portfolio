@@ -26,6 +26,8 @@ $$
 3. `Knot theory:` I read a bit of Knot Theory from resources like The Knot Book  and YouTube lectures. 
 4. `Algebraic Number Theory:` I studied it from A Text Book of Algebraic Number Theory.
 5. `Commutative Algebra:` From YouTube lecture
+6. I learned `python`, `c`,`kotlin jetpack compose`, andorid development, web development. I created a clone of whatsapp, ["myChattingApp"](https://github.com/atrajit-sarkar/MyChattingApp.git)
+
 
 **Past Projects**
 1. BSc Project – $\mathcal{L}^p$ Spaces
@@ -34,4 +36,4 @@ $$
 ---
 ### Research theme（研究テーマ）
 
-Since my area of interest lies in Analysis, Topology, Algebra, and Number Theory related fields, my research theme will be Analytical Number Theory, Algebraic Number Theory, Algebraic Topology, and these related fields, where combined ideas of topology, analysis, and number theory are needed. After a very long research about works of Japanese mathematicians, and discussions with my professors, I came to know that Japan is the best place for doing the topics and related fields I am interested in, after the type of course work I have done in my undergraduate years. I am particularly interested in "Multiple Zeta Values" as analytical number theory, and "Knot Theory" as algebraic topology. After going through the coursework and talks of Professor Henrik Bachmann from the Graduate School of Mathematics of Nagoya University, I understood that he can best guide me in this regard. In my Master's days, I took advice from Prof. Viswanathan Puthan Veedu, who has also done numerous works on Topology, Complex Analysis, and Number Theory, and he also suggested me Japan would be best for me according to my interest in new problems and research topics. I believe I can do my best research work in my PhD in Japan.
+Since my area of interest lies in Analysis, Algebra, and Number Theory related fields, my research theme will be Analytical Number Theory, Algebraic Number Theory, and these related fields, where combined ideas of analysis, and number theory, algebra are needed. After a very long research about works of Japanese mathematicians, and discussions with my professors, I came to know that Japan is the best place for doing the topics and related fields I am interested in, after the type of course work I have done in my undergraduate years. I am particularly interested in "Multiple Zeta Values" as analytical number theory. After going through the coursework and talks of Professor Henrik Bachmann from the Graduate School of Mathematics of Nagoya University, I understood that he can best guide me in this regard. In my Master's days, I took advice from Prof. Viswanathan Puthan Veedu, who has also done numerous works on Topology, Complex Analysis, and Number Theory, and he also suggested me Japan would be best for me according to my interest in new problems and research topics. I believe I can do my best research work in my PhD in Japan.

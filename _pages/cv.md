@@ -7,7 +7,7 @@ permalink: /cv/
 
 ## 📄 Download My CV
 
-<div class="cv-download">
+<div class="cv-download" id="cv">
     <h3>Complete Academic Profile</h3>
     <p>Download my detailed curriculum vitae for comprehensive information about my academic background, research interests, achievements, and professional experience.</p>
     
@@ -90,4 +90,4 @@ I am available for interviews, discussions about research interests, and collabo
 
 ---
 
-*The detailed CV contains comprehensive information about academic coursework, project work, technical skills, extracurricular activities, and references. Please download the PDF for complete details.*
+*The detailed CV contains comprehensive information about academic coursework, project work, technical skills, extracurricular activities, and references. Please download the [PDF](#cv) for complete details.*

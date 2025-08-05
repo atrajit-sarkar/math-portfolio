@@ -6,45 +6,49 @@ layout: home
 <section class="hero">
     <div class="hero-container">
         <div class="hero-content">
-            <div class="status-badge">
-                <span class="status-indicator"></span>
-                Currently looking for PhD
+            <div class="hero-image">
+                <div class="status-bubble">
+                    <span class="status-indicator"></span>
+                    Currently looking for PhD
+                </div>
+                <img src="https://atrajit-sarkar.gongobongo.org/data/profile.jpg" 
+                     alt="Atrajit Sarkar" 
+                     class="profile-image">
             </div>
-            <h2><a href="https://en.wikipedia.org/wiki/Konnichiwa">こんにちは</a></h2>
-            <h1>ATRAJIT SARKAR</h1>
-            <p class="subtitle">MSC IN MATHEMATICS, IIT DELHI</p>
-            <p class="description">PHD ASPIRANT – NUMBER THEORY | ANALYSIS | ALGEBRA</p>
             
-            <img src="https://atrajit-sarkar.gongobongo.org/data/profile.jpg" 
-                 alt="Atrajit Sarkar" 
-                 class="profile-image">
-            
-            <div class="math-formula">
-                $e^{i\pi} + 1 = 0$
-            </div>
+            <div class="hero-text">
+                <h2 class="japanese-greeting"><a href="https://en.wikipedia.org/wiki/Konnichiwa">こんにちは</a></h2>
+                <h1>ATRAJIT SARKAR</h1>
+                <p class="subtitle">MSC IN MATHEMATICS, IIT DELHI</p>
+                <p class="description">PHD ASPIRANT – NUMBER THEORY | ANALYSIS | ALGEBRA</p>
+                
+                <div class="math-formula">
+                    $e^{i\pi} + 1 = 0$
+                </div>
 
-            <div class="cta-buttons">
-                <a href="/cv/" class="btn btn-primary">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" />
-                    </svg>
-                    View CV
-                </a>
-                <a href="/contact/" class="btn btn-secondary">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4M20,8L12,13L4,8V6L12,11L20,6V8Z" />
-                    </svg>
-                    Contact Me
-                </a>
-                <a href="https://github.com/atrajit-sarkar" target="_blank" class="btn btn-secondary">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
-                    </svg>
-                    Visit GitHub
-                </a>
+                <div class="cta-buttons">
+                    <a href="/cv/" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" />
+                        </svg>
+                        View CV
+                    </a>
+                    <a href="/contact/" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4M20,8L12,13L4,8V6L12,11L20,6V8Z" />
+                        </svg>
+                        Contact Me
+                    </a>
+                    <a href="https://github.com/atrajit-sarkar" target="_blank" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                        </svg>
+                        Visit GitHub
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -62,38 +66,8 @@ layout: home
     </div>
 </section>
 
-## Example: Adding New Content with Markdown
-
-Now you can easily add new content using Markdown syntax. Here are some examples:
-
-### Research Interests
-
-- **Number Theory**: Prime numbers, modular forms, and analytic number theory
-- **Real Analysis**: Measure theory, functional analysis, and harmonic analysis
-- **Complex Analysis**: Riemann surfaces, complex dynamics, and holomorphic functions
-- **Algebra**: Group theory, ring theory, and field extensions
-
-### Mathematical Notation Examples
-
-You can write inline math like $\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s}$ or display equations:
-
-$$\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}$$
-
-### Code Blocks
-
-```python
-def riemann_zeta(s, terms=1000):
-    """Approximate the Riemann zeta function"""
-    return sum(1/n**s for n in range(1, terms+1))
-```
-
-### Links and References
-
-- [My Research Papers](https://example.com/papers)
-- [Mathematical Blog Posts](/posts/)
-- [Contact for Collaboration](/contact/)
-
-*Note: The content above this line is just an example of how you can now add Markdown content. You can edit or remove this section as needed.*
+### `Recent Activities`
+1. Currently reading *Multiple Zeta Values* from Prof. Henrick Bachmann [class notes](https://www.henrikbachmann.com/uploads/7/7/6/3/77634444/mzv_2025_lecture_notes_v23.pdf)
 
 <!-- Quick Links Section -->
 <section class="quick-links">

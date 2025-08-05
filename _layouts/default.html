@@ -27,6 +27,15 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     
+    <!-- Theme Toggle Script -->
+    <script>
+        // Load theme preference
+        (function() {
+            const theme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+    
     <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
     <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
@@ -34,6 +43,11 @@
     <meta name="theme-color" content="#2c3e50">
 </head>
 <body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+    </button>
     <header class="site-header">
         <nav class="navbar">
             <div class="nav-container">
@@ -223,6 +237,27 @@
                 header.classList.remove('scrolled');
             }
         });
+        
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                
+                // Update theme-color meta tag
+                const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+                if (themeColorMeta) {
+                    themeColorMeta.content = newTheme === 'dark' ? '#121212' : '#2c3e50';
+                }
+            });
+        }
     </script>
+    
+    <!-- Hero animations -->
+    <script src="{{ '/assets/js/animations.js' | relative_url }}"></script>
 </body>
 </html>

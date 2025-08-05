@@ -42,7 +42,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon.svg' | relative_url }}">
     <meta name="theme-color" content="#2c3e50">
 </head>
-<body>
+<body class="{% if page.layout == 'home' or page.url == '/' %}home{% else %}page{% endif %}">
     <!-- Theme Toggle Button -->
     <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
         <span class="sun-icon">☀️</span>

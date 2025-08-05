@@ -343,6 +343,18 @@ a:hover {
     min-height: calc(100vh - 90px);
 }
 
+/* Add top margin for all pages except home */
+body:not(.home) .main-content {
+    margin-top: 100px;
+    padding-top: 1rem;
+}
+
+/* Ensure home page keeps original spacing */
+body.home .main-content {
+    margin-top: 90px;
+    padding-top: 0;
+}
+
 /* Hero section */
 .hero {
     background: linear-gradient(135deg, var(--hero-bg-start) 0%, var(--hero-bg-middle) 50%, var(--hero-bg-end) 100%);
@@ -1926,6 +1938,18 @@ input[type="checkbox"] {
 
     .main-content {
         margin-top: 110px;
+    }
+    
+    /* Adjust for non-home pages on mobile */
+    body:not(.home) .main-content {
+        margin-top: 125px;
+        padding-top: 0.75rem;
+    }
+    
+    /* Keep home page spacing on mobile */
+    body.home .main-content {
+        margin-top: 110px;
+        padding-top: 0;
     }
 
     .page-content {

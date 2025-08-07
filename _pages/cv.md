@@ -26,7 +26,7 @@ permalink: /cv/
 ### Personal Information
 - **Name:** Atrajit Sarkar
 - **Email:** [atrajit.sarkar@alumni.iitd.ac.in](mailto:atrajit.sarkar@alumni.iitd.ac.in)
-- **Alternative Email:** [a@atraj.it](mailto:a@atraj.it)
+- **Alternative Email:** [atrajit.sarkar@atraj.it](mailto:atrajit.sarkar@atraj.it)
 - **LinkedIn:** [atrajit-sarkar-1729xxx1729](https://www.linkedin.com/in/atrajit-sarkar-1729xxx1729/)
 - **GitHub:** [atrajit-sarkar](https://github.com/atrajit-sarkar)
 
@@ -84,7 +84,8 @@ I am actively seeking **PhD opportunities** in Mathematics with a focus on:
 If you are interested in my profile for PhD positions, research collaborations, or academic opportunities, please feel free to reach out:
 
 - **Primary Email:** [atrajit.sarkar@alumni.iitd.ac.in](mailto:atrajit.sarkar@alumni.iitd.ac.in)
-- **Professional Email:** [a@atraj.it](mailto:a@atraj.it)
+
+- **Professional Email:** [atrajit.sarkar@atraj.it](mailto:atrajit.sarkar@atraj.it)
 
 I am available for interviews, discussions about research interests, and collaboration opportunities in mathematical sciences.
 

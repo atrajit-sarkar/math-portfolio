@@ -12,7 +12,7 @@ permalink: /contact/
 *Alumni email address from Indian Institute of Technology, Delhi*
 
 ### Professional Contact  
-**[a@atraj.it](mailto:a@atraj.it)**  
+**[atrajit.sarkar@atraj.it](mailto:atrajit.sarkar@atraj.it)**  
 *Personal professional email address*
 
 ---

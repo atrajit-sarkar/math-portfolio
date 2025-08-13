@@ -1383,9 +1383,13 @@ pre {
     border: 1px solid var(--pre-border);
     border-radius: var(--border-radius);
     padding: 1rem;
-    overflow-x: auto;
+    /* Wrap long lines in code blocks and avoid horizontal scroll */
+    overflow-x: hidden;
     margin: 1.5rem 0;
     line-height: 1.4;
+    white-space: pre-wrap; /* Wrap but preserve line breaks */
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
 pre code {
@@ -2194,7 +2198,8 @@ input[type="checkbox"] {
 .main-content > div.highlight {
     background-color: var(--pre-bg);
     border-radius: var(--border-radius);
-    overflow-x: auto;
+    /* No horizontal scrollbar for code containers */
+    overflow-x: hidden;
     border: 1px solid var(--pre-border);
     box-shadow: var(--shadow);
     /* Apply page-content styling to Markdown-generated elements only */
@@ -2217,6 +2222,10 @@ input[type="checkbox"] {
     margin: 0;
     padding: 0;
     max-width: none;
+    /* Ensure Rouge-highlighted blocks wrap long lines */
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
 .main-content > pre:not([class]) code {

@@ -11,6 +11,7 @@ excerpt: "Mathematical Modelling Class notes"
 1. `Class-01:` Over view, idea and a simple problem of mathematical modelling
 class note: 
 code for finding the solution of the problem:
+find the code also in [Github](https://github.com/atrajit-sarkar/Mathematical-Modelling/blob/main/class01.c)
 
 ```c
 // Bisection method with reusable function definition via macro in the define block

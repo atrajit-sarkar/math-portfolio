@@ -7,6 +7,9 @@ tags: [welcome, phd, number-theory, analysis]
 excerpt: "This post is about my self study for preparation for にほん。"
 ---
 
+## My Ideas and thoughts:
+1. How to calculate colon ideals easily. See [here](/mdstohtmls/colonideal-idea.html)
+
 ## Road Map
 1. First I will revise commutative algebra
 2. Then Galios Theory

@@ -8,6 +8,24 @@ $$
 \end{equation}
 $$
 
+**proof:** We can take $<S>$ instead $S$ as $I:<S>=I:S$. This enables us to eliminate maybe a few of $s_{\beta}$'s and take only $\{s_{\beta}\}$ that generates $<S>$. As, $I:S=I:<S>=I:<\{s_{\beta}\}>=I:\{s_{\beta}\}_{\beta \in K}$ which is sometimes useful to reduce computation.
+Coming back to proof, take 
+$$x\in \bigcap_{\beta \in K} \Big<\frac{i_{\alpha}}{gcd(i_{\alpha},s_{\beta})}\Big>_{\alpha \in J}$$
+$$
+\Rightarrow x\in  \Big<\frac{i_{\alpha}}{gcd(i_{\alpha},s_{\beta})}\Big>_{\alpha \in J}, \forall \beta \in K
+$$
+
+$$
+\Rightarrow x=\sum_{\underset{J' \text{ is finite}}{\alpha \in J' \subseteq J}}r_{\alpha}\frac{i_{\alpha}}{gcd(i_{\alpha},s_{\beta})}, \forall \beta \in K
+$$
+$$
+\Rightarrow xs_{\beta}=\sum_{\underset{J' \text{ is finite}}{\alpha \in J' \subseteq J}}r_{\alpha}\frac{i_{\alpha}s_{\beta}}{gcd(i_{\alpha},s_{\beta})}, \forall \beta \in K
+$$
+$$
+\Rightarrow xs_{\beta}=\sum_{\underset{J' \text{ is finite}}{\alpha \in J' \subseteq J}}r_{\alpha}i_{\alpha}t_{\alpha, \beta}, \forall \beta \in K
+$$
+where, $t_{\alpha,\beta}=\frac{s_{\beta}}{gcd(i_{\alpha},s_{\beta})}$ and hence $xs_{\beta}\in I$. This means $x\in I:\{s_{\beta}\}=I:S$.
+
 ### Corollary:
 To find the equality in (1) we have to check is there any element outside $\bigcap_{\beta \in K} \Big<\frac{i_{\alpha}}{gcd(i_{\alpha},s_{\beta})}\Big>_{\alpha \in J}$. To find element outside this ideal we can look at non-zero element in $\frac{R}{\bigcap_{\beta \in K} \Big<\frac{i_{\alpha}}{gcd(i_{\alpha},s_{\beta})}\Big>_{\alpha \in J}}$. For a non-zero element $x+\bigcap_{\beta \in K} \Big<\frac{i_{\alpha}}{gcd(i_{\alpha},s_{\beta})}\Big>_{\alpha \in J}$, it is sufficient to check wheter $x \in I:S$ as corresponding nonzero elements in $R$ will be $x+i$ for all $i\in \bigcap_{\beta \in K} \Big<\frac{i_{\alpha}}{gcd(i_{\alpha},s_{\beta})}\Big>_{\alpha \in J}$. But if $x+i \in I:S$ so is $x$. 
 Now if we have such $x$ then we have another ideal $\Big<x,\bigcap_{\beta \in K} \Big<\frac{i_{\alpha}}{gcd(i_{\alpha},s_{\beta})}\Big>_{\alpha \in J}\Big> \subseteq I:S$ and repeat the above process. Else, we get the equality.

@@ -14,6 +14,7 @@ author:
   linkedin: https://www.linkedin.com/in/atrajit-sarkar-1729xxx1729/
   github: https://github.com/atrajit-sarkar
   twitter: https://x.com/AtrajitSarkar
+  orcid: https://orcid.org/0009-0000-6488-0615
 
 # Build settings
 markdown: kramdown
@@ -59,6 +60,7 @@ social:
   linkedin: atrajit-sarkar-1729xxx1729
   twitter: AtrajitSarkar
   email: atrajit.sarkar@alumni.iitd.ac.in
+  orchid: https://orcid.org/0009-0000-6488-0615
 
 # Plugin settings
 plugins:

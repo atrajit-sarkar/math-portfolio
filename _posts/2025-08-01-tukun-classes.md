@@ -10,6 +10,8 @@ excerpt: "これわ class notes と important docs that I taught to my brother"
 [All Classes Link](https://www.atrajit.com/blogs.html?folder=Tukun_s%20Classes%2FAlgebra)
 1. [Ring Theory](https://www.atrajit.com/blogs.html?folder=Tukun_s%20Classes%2FAlgebra%2FRingTheory)
 
+## ODE Classes
+[All classes Link](https://atrajit-sarkar.github.io/ODE/)
 ---
 ## JAM (Joint Admission Test for Masters)
 I am right now teaching my brother short tricks and formulae required in competitive exam like *JAM*.

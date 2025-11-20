@@ -1,6 +1,6 @@
 # Site settings
 title: Atrajit Sarkar - Mathematics Portfolio
-email: atrajit.sarkar@alumni.iitd.ac.in
+email: math@atraj.it
 description: >-
   MSc in Mathematics from IIT Delhi. PhD Aspirant specializing in Number Theory, 
   Real & Complex Analysis, and Algebra. Currently seeking PhD opportunities.
@@ -10,11 +10,12 @@ url: "https://www.atraj.it"
 # Author information
 author:
   name: Atrajit Sarkar
-  email: atrajit.sarkar@alumni.iitd.ac.in
-  linkedin: https://www.linkedin.com/in/atrajit-sarkar-1729xxx1729/
+  email: math@atraj.it
+  linkedin: https://www.linkedin.com/in/atrajit-sarkar/
   github: https://github.com/atrajit-sarkar
   twitter: https://x.com/AtrajitSarkar
   orcid: https://orcid.org/0009-0000-6488-0615
+  researchgate: https://www.researchgate.net/profile/Atrajit-Sarkar
 
 # Build settings
 markdown: kramdown
@@ -57,10 +58,11 @@ accent_color: "#3498db"
 # Social links
 social:
   github: atrajit-sarkar
-  linkedin: atrajit-sarkar-1729xxx1729
+  linkedin: atrajit-sarkar
   twitter: AtrajitSarkar
-  email: atrajit.sarkar@alumni.iitd.ac.in
+  email: math@atraj.it
   orchid: https://orcid.org/0009-0000-6488-0615
+  researchgate: https://www.researchgate.net/profile/Atrajit-Sarkar
 
 # Plugin settings
 plugins:

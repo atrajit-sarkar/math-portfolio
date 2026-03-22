@@ -171,6 +171,8 @@ bundle exec jekyll serve --livereload
 bundle exec jekyll build
 ```
 
+If you see an error like `You have already activated rexml ...`, run Jekyll through Bundler with `bundle exec jekyll serve` instead of `jekyll serve`. On newer Ruby installs, running the bare `jekyll` executable can load a different gem version before Bundler applies the versions from `Gemfile.lock`.
+
 ### Adding Features
 - New layouts: Add to `_layouts/` directory
 - New styles: Extend `assets/css/main.css`

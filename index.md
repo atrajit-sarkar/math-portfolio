@@ -9,7 +9,7 @@ layout: home
             <div class="hero-image">
                 <div class="status-bubble">
                     <span class="status-indicator"></span>
-                    Currently looking for PhD
+                    ??
                 </div>
                 <img src="/atrajit.jpg" 
                      alt="Atrajit Sarkar" 

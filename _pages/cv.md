@@ -26,8 +26,8 @@ permalink: /cv/
 ### Personal Information
 - **Name:** Atrajit Sarkar
 - **Email:** [atrajit.sarkar@alumni.iitd.ac.in](mailto:atrajit.sarkar@alumni.iitd.ac.in)
-- **Alternative Email:** [atrajit.sarkar@atraj.it](mailto:atrajit.sarkar@atraj.it)
-- **LinkedIn:** [atrajit-sarkar-1729xxx1729](https://www.linkedin.com/in/atrajit-sarkar-1729xxx1729/)
+- **Alternative Email:** [a@atraj.it](mailto:a@atraj.it)
+- **LinkedIn:** [atrajit-sarkar](https://www.linkedin.com/in/atrajit-sarkar/)
 - **GitHub:** [atrajit-sarkar](https://github.com/atrajit-sarkar)
 
 ### Current Status

@@ -9,7 +9,7 @@ layout: home
             <div class="hero-image">
                 <div class="status-bubble">
                     <span class="status-indicator"></span>
-                    ??
+                    Doing PhD is MVZs
                 </div>
                 <img src="/atrajit.jpg" 
                      alt="Atrajit Sarkar" 

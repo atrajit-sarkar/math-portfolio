@@ -72,16 +72,16 @@ I typically respond to emails within **24-48 hours** during weekdays. For urgent
 
 ### Best Times to Reach Me
 - **Email:** Anytime (I check emails regularly)
-- **LinkedIn:** Business hours (9 AM - 6 PM IST)
+- **LinkedIn:** Business hours (9 AM - 6 PM JST)
 - **Twitter:** Casual interactions and academic discussions
 
 ---
 
-## 🗺️ Location
+## 🗺️ Location 🗾🎌
 
-**Current Location:** India  
+**Current Location:** Japan  
 **Available for:** Remote collaborations, online meetings, and virtual presentations  
-**Time Zone:** Indian Standard Time (IST, UTC+5:30)
+**Time Zone:** Japanese Standard Time (JST, UTC+ 9:00)
 
 ---
 

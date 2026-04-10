@@ -9,6 +9,7 @@ excerpt: "これわ class notes と important docs that I taught to my brother"
 ## Algebra Classes
 [All Classes Link](https://www.atrajit.fr/blogs.html?folder=Tukun_s%20Classes%2FAlgebra)
 1. [Ring Theory](https://www.atrajit.fr/blogs.html?folder=Tukun_s%20Classes%2FAlgebra%2FRingTheory)
+2. [UFD GCD and More](https://www.atra.dad/UFD%20GCD%20and%20More.pdf)
 
 ## ODE Classes
 [All classes Link](https://atrajit-sarkar.github.io/ODE/)

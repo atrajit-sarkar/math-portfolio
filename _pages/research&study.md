@@ -11,6 +11,10 @@ permalink: /research-and-study/
 $$
 
 ---
+### Current Research theme（研究テーマ）
+
+
+---
 ### Past and present field of study（これまでの専攻分野）
 
 > I have completed my MSc. from the [Indian Institute of Technology (IIT)](https://home.iitd.ac.in/), Delhi, India in 2024. Previously, I was a Bachelor student at [Ramakrishna Mission Vidyamandira, Belur Math](https://vidyamandira.ac.in/), Howrah, West Bengal, India.
@@ -34,6 +38,6 @@ $$
 2. MSc Project – [Morse Theory](\pdfs\MSc Thesis\Manifold_Theory_Report_Card.pdf) on [3D Manifolds](\pdfs\MSc Thesis\3_manifold.pdf)
 
 ---
-### Research theme（研究テーマ）
 
-Since my area of interest lies in Analysis, Algebra, and Number Theory related fields, my research theme will be Analytical Number Theory, Algebraic Number Theory, and these related fields, where combined ideas of analysis, and number theory, algebra are needed. After a very long research about works of Japanese mathematicians, and discussions with my professors, I came to know that Japan is the best place for doing the topics and related fields I am interested in, after the type of course work I have done in my undergraduate years. I am particularly interested in "Multiple Zeta Values" as analytical number theory. After going through the coursework and talks of Professor Henrik Bachmann from the Graduate School of Mathematics of Nagoya University, I understood that he can best guide me in this regard. In my Master's days, I took advice from Prof. Viswanathan Puthan Veedu, who has also done numerous works on Topology, Complex Analysis, and Number Theory, and he also suggested me Japan would be best for me according to my interest in new problems and research topics. I believe I can do my best research work in my PhD in Japan.
+
+

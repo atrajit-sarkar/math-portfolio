@@ -53,11 +53,4 @@ The National Talent Search Examination (NTSE) is a national-level scholarship pr
 
 ---
 
-### Recognition Summary
 
-- **Academic Excellence:** Consistent top performance from school level to national examinations
-- **Competitive Success:** Outstanding ranks in highly competitive national-level tests
-- **Literary Contribution:** Creative expression through published work
-- **Early Recognition:** Talent identified and awarded from a young age
-
-These achievements reflect a journey of continuous learning, dedication to academic excellence, and a multifaceted approach to intellectual development in both mathematical sciences and creative fields.

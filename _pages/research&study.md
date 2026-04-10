@@ -15,9 +15,9 @@ $$
 
 > I have completed my MSc. from the [Indian Institute of Technology (IIT)](https://home.iitd.ac.in/), Delhi, India in 2024. Previously, I was a Bachelor student at [Ramakrishna Mission Vidyamandira, Belur Math](https://vidyamandira.ac.in/), Howrah, West Bengal, India.
 
-`MSc:` During MSc, I had several courses such as Group Theory, Ring Theory, Field Theory, Linear Algebra, Complex Analysis, Functional Analysis, Topology, Measure Theory, C programming, Numerical Analysis, Probability. Besides semester courses, I took Algebraic Topology, Number Theory, and Commutative Algebra as additional courses. I also did a summer project on "Algebraic Topology" and an MSc reading project on ["Morse Theory"](https://atrajit-sarkar.gongobongo.org/blogs/Manifold_Theory_Report_Card_.pdf) and ["3D Manifold"](https://atrajit-sarkar.gongobongo.org/blogs/3_manifold.pdf), all under the supervision of [Dr. Biplab Basak, IITD](https://sites.google.com/view/biplabbasak).
+`MSc:` During MSc, I had several courses such as Group Theory, Ring Theory, Field Theory, Linear Algebra, Complex Analysis, Functional Analysis, Topology, Measure Theory, C programming, Numerical Analysis, Probability. Besides semester courses, I took Algebraic Topology, Number Theory, and Commutative Algebra as additional courses. I also did a summer project on "Algebraic Topology" and an MSc reading project on ["Morse Theory"](\pdfs\MSc Thesis\Manifold_Theory_Report_Card_ (1).pdf) and ["3D Manifold"](\pdfs\MSc Thesis\3_manifold.pdf), all under the supervision of [Dr. Biplab Basak, IITD](https://sites.google.com/view/biplabbasak).
 
-`BSc:` During my three years of BSc, I have had courses in Real Analysis (4 semesters), Metric spaces (1 semester), Group theory (2 semesters), Linear algebra (4 semesters), Rings and Field theory (2 semesters), Topology, Measure theory, Complex Analysis, Numerical Analysis (1 semester), Ordinary and Partial Differential Equations (2 semesters), Particle dynamics and Analytical Statics, Analytical geometry of 2 and 3 dimensions (1 semester). I also had courses in Statistics and Computer Science as minor subjects. My BSc thesis was on [“$\mathcal{L}^p$ Spaces”](https://atrajit-sarkar.gongobongo.org/blogs/Lp_spaces.pdf), advisor – [Dr. Arnab Jyoti Dasgupta](https://vidyamandira.ac.in/pdfs/facultycv/AJDG_Math.pdf), Ramakrishna Mission Vidyamandira, Belur Math.
+`BSc:` During my three years of BSc, I have had courses in Real Analysis (4 semesters), Metric spaces (1 semester), Group theory (2 semesters), Linear algebra (4 semesters), Rings and Field theory (2 semesters), Topology, Measure theory, Complex Analysis, Numerical Analysis (1 semester), Ordinary and Partial Differential Equations (2 semesters), Particle dynamics and Analytical Statics, Analytical geometry of 2 and 3 dimensions (1 semester). I also had courses in Statistics and Computer Science as minor subjects. My BSc thesis was on [“$\mathcal{L}^p$ Spaces”](\pdfs\BSc Thesis\Lp_spaces (1).pdf), advisor – [Dr. Arnab Jyoti Dasgupta](https://vidyamandira.ac.in/pdfs/facultycv/AJDG_Math.pdf), Ramakrishna Mission Vidyamandira, Belur Math.
  In 2022, I appeared for the [TIFR Bangalore](https://www.math.tifrbng.res.in/) written examination for MSc admission and cracked it, and also appeared for the ***Joint Admission Test for Masters (JAM)*** and secured 82 all-India rank (AIR), the highest rank in the mathematics department of my BSc college.
 
 **Self-Study & Exploration**
@@ -30,8 +30,8 @@ $$
 
 
 **Past Projects**
-1. BSc Project – $\mathcal{L}^p$ Spaces
-2. MSc Project – Morse Theory on 3D Manifolds
+1. BSc Project – [$\mathcal{L}^p$ Spaces](\pdfs\BSc Thesis\Lp_spaces (1).pdf)
+2. MSc Project – [Morse Theory](\pdfs\MSc Thesis\Manifold_Theory_Report_Card_ (1).pdf) on [3D Manifolds](\pdfs\MSc Thesis\3_manifold.pdf)
 
 ---
 ### Research theme（研究テーマ）

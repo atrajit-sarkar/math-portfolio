@@ -5,6 +5,11 @@ subtitle: Academic Honors and Recognition
 permalink: /achievements/
 ---
 
+## ✉️ Letter of Acceptance for PhD in MZV at Nagoya University, Japan
+I got PhD offer letter in March 19, 2026 for PhD position at Nagoya University, Japan on Multiple Zeta Values. My main theme for research will be Multiple Eisenstein Series and more specially I would like to study the formal MES $ \varepsilon^f := \mathfrak{H}^{\geq 2}/DR_* $ which is conjecturally isomorphic to $\varepsilon$. I will try to show this conjecture. Mainly try to prove that the map $G: \mathfrak{H}^{\geq 2}\rightarrow \varepsilon$ defined by 
+$G(z_{k_1}\cdots z_{k_r})=G_{k_1,\cdots,k_r}$ has the kernel $DR_*$. For ref. check [[HHK](https://arxiv.org/pdf/2602.08176)]
+
+---
 ## 🏆 NET Rank 25 in LS (2024)
 
 Qualified with an **All India Rank of 25** in LS category in National Eligibility Test (NET) in Mathematics.

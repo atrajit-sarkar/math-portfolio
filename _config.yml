@@ -38,8 +38,6 @@ collections:
 navigation:
   - title: Home
     url: /
-  - title: Education
-    url: /education/
   - title: Achievements & Awards
     url: /achievements/
   - title: CV

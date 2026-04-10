@@ -67,7 +67,8 @@ layout: home
 </section>
 
 ### `Recent Activities`
-1. Currently reading *Multiple Zeta Values* from Prof. Henrick Bachmann [class notes](https://www.henrikbachmann.com/uploads/7/7/6/3/77634444/mzv_2025_lecture_notes_v23.pdf)
+- Reading [[HHK](https://arxiv.org/pdf/2602.08176)]
+- Currently reading *Multiple Zeta Values* from Prof. Henrick Bachmann [class notes](https://www.henrikbachmann.com/uploads/7/7/6/3/77634444/mzv_2025_lecture_notes_v23.pdf)
 
 <!-- Quick Links Section -->
 <section class="quick-links">

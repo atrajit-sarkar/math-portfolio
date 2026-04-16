@@ -3,13 +3,14 @@ layout: home
 ---
 
 <!-- Hero Section -->
-<section class="hero">
+<section class="hero" style="background-image: url('/assets/images/hero-bg.jpg')">
     <div class="hero-container">
         <div class="hero-content">
             <div class="hero-image">
                 <div class="status-bubble">
                     <span class="status-indicator"></span>
-                    Doing PhD is MVZs
+                    <span class="status-label">Currently</span>
+                    <span class="status-text">Doing PhD in MZVs</span>
                 </div>
                 <img src="/atrajit.jpg" 
                      alt="Atrajit Sarkar" 

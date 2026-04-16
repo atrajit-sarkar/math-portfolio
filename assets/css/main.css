@@ -327,15 +327,51 @@ a:hover {
 .nav-toggle {
     display: none;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border: 1px solid var(--border-color);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: var(--shadow);
     cursor: pointer;
-    gap: 3px;
+    transition: var(--transition);
+}
+
+.nav-toggle:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-hover);
 }
 
 .bar {
-    width: 25px;
-    height: 3px;
+    width: 18px;
+    height: 2px;
+    border-radius: 999px;
     background-color: var(--primary-color);
     transition: var(--transition);
+}
+
+.nav-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.32);
+    backdrop-filter: blur(8px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 999;
+}
+
+.nav-overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+body.nav-open {
+    overflow: hidden;
 }
 
 /* Main content */
@@ -1811,31 +1847,87 @@ input[type="checkbox"] {
     }
     
     .nav-container {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         gap: 1rem;
+        min-height: 88px;
+    }
+    
+    .nav-logo {
+        align-items: flex-start;
+        text-align: left;
+        max-width: calc(100% - 76px);
+    }
+    
+    .logo-text {
+        font-size: 1.25rem;
+    }
+    
+    .logo-subtitle {
+        font-size: 0.78rem;
     }
     
     .nav-menu {
         position: fixed;
-        left: -100%;
-        top: 100px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: auto;
         flex-direction: column;
-        background-color: white;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow: var(--shadow);
-        padding: 2rem 0;
+        align-items: stretch;
+        justify-content: flex-start;
+        gap: 1.25rem;
+        width: min(82vw, 340px);
+        max-width: 340px;
+        height: 100dvh;
+        padding: 6.25rem 1.25rem 1.5rem;
+        background: rgba(255, 255, 255, 0.97);
+        border-left: 1px solid var(--border-color);
+        box-shadow: -20px 0 45px rgba(15, 23, 42, 0.18);
+        backdrop-filter: blur(18px);
+        overflow-y: auto;
+        text-align: left;
+        transform: translateX(100%);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: transform 0.35s ease, opacity 0.25s ease, visibility 0s linear 0.35s;
+        z-index: 1002;
     }
     
     .nav-items {
         flex-direction: column;
+        align-items: stretch;
         width: 100%;
-        gap: 0;
+        gap: 0.75rem;
+    }
+    
+    .nav-link {
+        width: 100%;
+        padding: 0.9rem 1rem;
+        border: 1px solid rgba(44, 62, 80, 0.08);
+        background: rgba(248, 249, 250, 0.9);
+        border-radius: 14px;
+        text-align: left;
+        box-shadow: 0 10px 25px rgba(44, 62, 80, 0.04);
+    }
+    
+    .nav-link:hover {
+        background: rgba(52, 152, 219, 0.1);
+        border-color: rgba(52, 152, 219, 0.25);
+        color: var(--primary-color);
+    }
+    
+    .nav-link.active {
+        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        border-color: transparent;
+        color: white;
+        box-shadow: 0 14px 32px rgba(44, 62, 80, 0.18);
     }
     
     .nav-dropdown {
-        width: 100%;
+        display: none !important;
     }
     
     .nav-dropdown-content {
@@ -1853,14 +1945,18 @@ input[type="checkbox"] {
     }
 
     .nav-menu.show {
-        left: 0;
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transition-delay: 0s;
     }
 
     .nav-toggle {
         display: flex;
-        position: absolute;
-        top: 1rem;
-        right: 2rem;
+        position: relative;
+        z-index: 1003;
+        flex-shrink: 0;
     }
 
     .nav-toggle.active .bar:nth-child(2) {
@@ -1868,11 +1964,23 @@ input[type="checkbox"] {
     }
 
     .nav-toggle.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(6px) rotate(45deg);
     }
 
     .nav-toggle.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-6px) rotate(-45deg);
+    }
+
+    [data-theme="dark"] .nav-link {
+        background: rgba(255, 255, 255, 0.04);
+        border-color: rgba(255, 255, 255, 0.08);
+        box-shadow: none;
+    }
+
+    [data-theme="dark"] .nav-link:hover {
+        background: rgba(100, 181, 246, 0.12);
+        border-color: rgba(100, 181, 246, 0.24);
+        color: var(--text-color);
     }
 
     .hero {
@@ -1937,24 +2045,27 @@ input[type="checkbox"] {
     }
 
     .container,
-    .nav-container,
     .hero-container {
         padding: 0 1rem;
     }
 
+    .nav-container {
+        padding: 0 1rem 0 4.25rem;
+    }
+
     .main-content {
-        margin-top: 110px;
+        margin-top: 96px;
     }
     
     /* Adjust for non-home pages on mobile */
     body:not(.home) .main-content {
-        margin-top: 125px;
+        margin-top: 104px;
         padding-top: 0.75rem;
     }
     
     /* Keep home page spacing on mobile */
     body.home .main-content {
-        margin-top: 110px;
+        margin-top: 96px;
         padding-top: 0;
     }
 
@@ -2002,7 +2113,15 @@ input[type="checkbox"] {
 }
 
 [data-theme="dark"] .nav-menu {
-    background-color: var(--bg-color);
+    background-color: rgba(18, 18, 18, 0.98);
+}
+
+[data-theme="dark"] .nav-toggle {
+    background: rgba(18, 18, 18, 0.86);
+}
+
+[data-theme="dark"] .nav-overlay {
+    background: rgba(0, 0, 0, 0.48);
 }
 
 [data-theme="dark"] .link-card {
@@ -2082,6 +2201,8 @@ input[type="checkbox"] {
 
 /* Focus states for keyboard navigation */
 .nav-link:focus,
+.nav-more-btn:focus,
+.nav-toggle:focus,
 .btn:focus,
 .social-link:focus {
     outline: 2px solid var(--secondary-color);
@@ -2307,3 +2428,4 @@ input[type="checkbox"] {
 .main-content code a:hover {
     color: var(--primary-color) !important;
 }
+

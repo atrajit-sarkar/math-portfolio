@@ -342,6 +342,10 @@
         const themeToggle = document.getElementById('themeToggle');
         if (themeToggle) {
             themeToggle.addEventListener('click', () => {
+                // Disable all transitions during switch
+                document.documentElement.style.setProperty('--transition', 'none');
+                document.body.style.transition = 'none';
+
                 const currentTheme = document.documentElement.getAttribute('data-theme');
                 const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
                 
@@ -351,8 +355,16 @@
                 // Update theme-color meta tag
                 const themeColorMeta = document.querySelector('meta[name="theme-color"]');
                 if (themeColorMeta) {
-                    themeColorMeta.content = newTheme === 'dark' ? '#121212' : '#2c3e50';
+                    themeColorMeta.content = newTheme === 'dark' ? '#121212' : '#1a1a2e';
                 }
+
+                // Re-enable transitions after repaint
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        document.documentElement.style.removeProperty('--transition');
+                        document.body.style.transition = '';
+                    });
+                });
             });
         }
     </script>

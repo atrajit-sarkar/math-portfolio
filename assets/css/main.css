@@ -155,6 +155,32 @@ a:hover {
 [data-theme="dark"] .site-header.scrolled {
     background: rgba(18, 18, 18, 0.97);
 }
+
+/* Nav text white on transparent header (home page hero) */
+body.home .site-header:not(.scrolled) .logo-text,
+body.home .site-header:not(.scrolled) .logo-subtitle,
+body.home .site-header:not(.scrolled) .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+body.home .site-header:not(.scrolled) .nav-link:hover,
+body.home .site-header:not(.scrolled) .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.18);
+    color: #fff;
+}
+
+/* Non-home pages: always solid header */
+body:not(.home) .site-header {
+    background: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(10px);
+    border-bottom-color: var(--border-color);
+}
+
+[data-theme="dark"] body:not(.home) .site-header {
+    background: rgba(18, 18, 18, 0.97);
+}
+
+/* Theme Toggle Button */
 .theme-toggle {
     position: fixed;
     top: 16px;
@@ -196,10 +222,6 @@ a:hover {
 
 [data-theme="dark"] .theme-toggle .moon-icon {
     display: none;
-}
-
-.site-header.scrolled {
-    /* merged above */
 }
 
 .navbar {

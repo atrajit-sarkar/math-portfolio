@@ -345,6 +345,9 @@
                 const currentTheme = document.documentElement.getAttribute('data-theme');
                 const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
                 
+                // Disable transitions during theme switch to prevent lag
+                document.documentElement.classList.add('theme-switching');
+                
                 document.documentElement.setAttribute('data-theme', newTheme);
                 localStorage.setItem('theme', newTheme);
                 
@@ -353,6 +356,13 @@
                 if (themeColorMeta) {
                     themeColorMeta.content = newTheme === 'dark' ? '#121212' : '#2c3e50';
                 }
+                
+                // Re-enable transitions after repaint
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        document.documentElement.classList.remove('theme-switching');
+                    });
+                });
             });
         }
     </script>

@@ -81,29 +81,17 @@ layout: home
                 <h3>Posts & Blog</h3>
                 <p>Mathematical insights, research thoughts, and academic journey</p>
             </a>
-            
-            <a href="/education/" class="link-card">
-                <div class="link-card-icon">🎓</div>
-                <h3>Education</h3>
-                <p>Academic journey from school to IIT Delhi</p>
-            </a>
 
-            <a href="/achievements/" class="link-card">
-                <div class="link-card-icon">🏆</div>
-                <h3>Achievements & Awards</h3>
-                <p>Academic honors and recognitions</p>
+            <a href="/publications/" class="link-card">
+                <div class="link-card-icon">📚</div>
+                <h3>Publications</h3>
+                <p>Research papers and academic publications</p>
             </a>
 
             <a href="/cv/" class="link-card">
                 <div class="link-card-icon">📄</div>
                 <h3>Curriculum Vitae</h3>
                 <p>Complete academic and professional profile</p>
-            </a>
-
-            <a href="/contact/" class="link-card">
-                <div class="link-card-icon">📧</div>
-                <h3>Contact</h3>
-                <p>Get in touch for collaboration opportunities</p>
             </a>
         </div>
 

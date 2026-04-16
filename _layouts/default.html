@@ -66,7 +66,7 @@
                     </div>
                     
                     <div class="nav-dropdown" id="nav-dropdown" style="display: none;">
-                        <button class="nav-more-btn" id="nav-more-btn">
+                        <button type="button" class="nav-more-btn" id="nav-more-btn">
                             More
                             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
@@ -78,15 +78,21 @@
                     </div>
                 </div>
                 
-                <div class="nav-toggle" id="nav-toggle">
+                <button
+                    type="button"
+                    class="nav-toggle"
+                    id="nav-toggle"
+                    aria-label="Open navigation menu"
+                    aria-controls="nav-menu"
+                    aria-expanded="false"
+                >
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
-                </div>
+                </button>
             </div>
         </nav>
-    </header>
-
+    </header>`n    <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>`n
     <main class="main-content">
         {{ content }}
     </main>
@@ -159,11 +165,48 @@
         // Mobile navigation toggle
         const navToggle = document.getElementById('nav-toggle');
         const navMenu = document.getElementById('nav-menu');
+        const navOverlay = document.getElementById('nav-overlay');
+        const mobileBreakpoint = 768;
 
-        navToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('show');
-            navToggle.classList.toggle('active');
-        });
+        function isMobileNav() {
+            return window.innerWidth <= mobileBreakpoint;
+        }
+
+        function setMobileNavState(isOpen) {
+            if (!navToggle || !navMenu || !navOverlay) return;
+
+            navMenu.classList.toggle('show', isOpen);
+            navToggle.classList.toggle('active', isOpen);
+            document.body.classList.toggle('nav-open', isOpen);
+            navOverlay.classList.toggle('show', isOpen);
+            navOverlay.setAttribute('aria-hidden', String(!isOpen));
+            navToggle.setAttribute('aria-expanded', String(isOpen));
+            navToggle.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+        }
+
+        function closeMobileNav() {
+            setMobileNavState(false);
+        }
+
+        function openMobileNav() {
+            setMobileNavState(true);
+        }
+
+        if (navToggle) {
+            navToggle.addEventListener('click', () => {
+                const shouldOpen = !navMenu.classList.contains('show');
+
+                if (shouldOpen) {
+                    openMobileNav();
+                } else {
+                    closeMobileNav();
+                }
+            });
+        }
+
+        if (navOverlay) {
+            navOverlay.addEventListener('click', closeMobileNav);
+        }
 
         // Responsive navbar with dropdown
         function handleNavbarOverflow() {
@@ -172,13 +215,9 @@
             const navDropdownContent = document.getElementById('nav-dropdown-content');
             const navMoreBtn = document.getElementById('nav-more-btn');
             
-            if (!navItems || !navDropdown) return;
+            if (!navItems || !navDropdown || !navDropdownContent) return;
             
             const navLinks = Array.from(navItems.children);
-            const containerWidth = navMenu.offsetWidth - 120; // Reserve space for logo and toggle
-            let totalWidth = 0;
-            let visibleItems = [];
-            let hiddenItems = [];
             
             // Reset all items to visible first
             navLinks.forEach(link => {
@@ -186,14 +225,22 @@
                 navItems.appendChild(link);
             });
             navDropdown.style.display = 'none';
+            navDropdown.classList.remove('show');
             navDropdownContent.innerHTML = '';
+
+            if (isMobileNav()) {
+                return;
+            }
+
+            const containerWidth = navMenu.offsetWidth - 120; // Reserve space for logo and toggle
+            let totalWidth = 0;
+            let hiddenItems = [];
             
             // Calculate which items fit
             navLinks.forEach(link => {
                 const linkWidth = link.offsetWidth + 8; // Add gap
                 if (totalWidth + linkWidth <= containerWidth - (hiddenItems.length > 0 ? 80 : 0)) {
                     totalWidth += linkWidth;
-                    visibleItems.push(link);
                 } else {
                     hiddenItems.push(link);
                 }
@@ -221,16 +268,53 @@
             });
         }
         
-        // Close dropdown when clicking outside
-        document.addEventListener('click', () => {
+        // Close dropdown and mobile drawer when clicking outside
+        document.addEventListener('click', (event) => {
             if (navDropdown) {
-                navDropdown.classList.remove('show');
+                const clickedInsideDropdown = navDropdown.contains(event.target);
+                const clickedMoreButton = navMoreBtn && navMoreBtn.contains(event.target);
+
+                if (!clickedInsideDropdown && !clickedMoreButton) {
+                    navDropdown.classList.remove('show');
+                }
             }
+
+            if (
+                isMobileNav() &&
+                navMenu &&
+                navMenu.classList.contains('show') &&
+                !navMenu.contains(event.target) &&
+                !(navToggle && navToggle.contains(event.target))
+            ) {
+                closeMobileNav();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && navMenu && navMenu.classList.contains('show')) {
+                closeMobileNav();
+            }
+        });
+
+        document.querySelectorAll('#nav-menu .nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                if (isMobileNav()) {
+                    closeMobileNav();
+                }
+            });
         });
         
         // Handle resize
-        window.addEventListener('resize', handleNavbarOverflow);
-        window.addEventListener('load', handleNavbarOverflow);
+        window.addEventListener('resize', () => {
+            if (!isMobileNav()) {
+                closeMobileNav();
+            }
+            handleNavbarOverflow();
+        });
+        window.addEventListener('load', () => {
+            closeMobileNav();
+            handleNavbarOverflow();
+        });
         
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -275,3 +359,4 @@
     <script src="{{ '/assets/js/animations.js' | relative_url }}"></script>
 </body>
 </html>
+

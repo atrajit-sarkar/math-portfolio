@@ -435,8 +435,8 @@ body.home .main-content {
 
 .hero-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    grid-template-columns: 0.8fr 1.4fr;
+    gap: 2rem;
     align-items: center;
     animation: fadeInUp 1s ease-out;
 }
@@ -451,8 +451,9 @@ body.home .main-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
+    margin-left: -3rem;
 }
 
 /* Add extra curly bubbles for more organic look */
@@ -1823,6 +1824,8 @@ input[type="checkbox"] {
     .hero-image {
         order: 1;
         margin-bottom: 1rem;
+        margin-left: 0;
+        align-items: center;
     }
     
     .status-bubble {

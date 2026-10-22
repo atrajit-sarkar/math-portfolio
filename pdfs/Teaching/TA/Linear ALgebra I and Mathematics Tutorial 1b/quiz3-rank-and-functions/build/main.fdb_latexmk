@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1792668248.7442 "d:/AS/math-portfolio/pdfs/Teaching/TA/Linear ALgebra I and Mathematics Tutorial 1b/quiz3-rank-and-functions/main.tex" "build/main.pdf" "main" 1792668250.54234 0
-  "C:/Users/atraj/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1792662816 81245 b430549db98beb1d3a03071ea49cab66 ""
+["pdflatex"] 1792671050.41982 "d:/AS/math-portfolio/pdfs/Teaching/TA/Linear ALgebra I and Mathematics Tutorial 1b/quiz3-rank-and-functions/main.tex" "build/main.pdf" "main" 1792671052.20328 0
+  "C:/Users/atraj/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1792671035 81245 b430549db98beb1d3a03071ea49cab66 ""
   "C:/Users/atraj/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1774191788 13333849 0cd096497084d615c993ccd19ec3475b ""
   "C:/Users/atraj/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/atraj/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -158,6 +158,7 @@
   "C:/Users/atraj/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1761900684 8448 686612a86f0e04f41ea577f5ec7e83d8 ""
   "C:/Users/atraj/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/atraj/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1759409308 46885 8953c67ffba03252c6090aa19568b8ba ""
+  "C:/Users/atraj/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
   "C:/Users/atraj/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "C:/Users/atraj/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.cfg" 1465894292 1224 978390e9c2234eab29404bc21b268d1e ""
   "C:/Users/atraj/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/pdftex.def" 1762694372 19626 23e2822b9b2b5005f4c549ca98b9334d ""
@@ -190,11 +191,11 @@
   "C:/Users/atraj/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/atraj/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/atraj/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "build/main.aux" 1792668250 1401 008c40ba7aecf4f65569c7a164fc3e2d "pdflatex"
-  "build/main.out" 1792668250 455 db2ae8dea88b57c943e31e5e331bd784 "pdflatex"
-  "build/main.toc" 1792668250 553 df9aef5f2c5b6e5b160dc58563b3fda8 "pdflatex"
-  "d:/AS/math-portfolio/pdfs/Teaching/TA/Linear ALgebra I and Mathematics Tutorial 1b/quiz3-rank-and-functions/main.tex" 1792668246 3759 9d6a90da6c7ce4a1be8e8e6db259b0d0 ""
-  "main.tex" 1792668246 3759 9d6a90da6c7ce4a1be8e8e6db259b0d0 ""
+  "build/main.aux" 1792671051 1401 6bae01f7795cae07b10aca726b8742db "pdflatex"
+  "build/main.out" 1792671051 455 db2ae8dea88b57c943e31e5e331bd784 "pdflatex"
+  "build/main.toc" 1792671051 553 8eb72dbefcc4e12231f170c95040a2d3 "pdflatex"
+  "d:/AS/math-portfolio/pdfs/Teaching/TA/Linear ALgebra I and Mathematics Tutorial 1b/quiz3-rank-and-functions/main.tex" 1792671023 3778 96b665a1df1b7be6514997694ee0fe5b ""
+  "main.tex" 1792671023 3778 96b665a1df1b7be6514997694ee0fe5b ""
   (generated)
   "build/main.aux"
   "build/main.log"

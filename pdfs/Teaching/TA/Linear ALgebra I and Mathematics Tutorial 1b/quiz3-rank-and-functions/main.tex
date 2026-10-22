@@ -3,6 +3,7 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{hyperref}
+\usepackage{float}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.18}
 
@@ -41,7 +42,7 @@ $f(x_1)=f(x_2)\iff  e^{2x_1}-1=e^{2x_2}-1 \iff e^{2(x_1-x_2)}=1 \iff 2(x_1-x_2)=
 \section{Comment 4}\label{Comment4}
 Below is the correct graph of $f(x)=e^{2x}-1$. Notice that the graph passes through the origin, since $f(0)=e^{0}-1=0$, and that it approaches the horizontal line $y=-1$ as $x\to-\infty$ but never touches it, because $e^{2x}>0$ for every $x\in\mathbb{R}$.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \begin{tikzpicture}
         \begin{axis}[

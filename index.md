@@ -61,6 +61,7 @@ layout: home
 </section>
 
 ### `Recent Activities`
+- Appointed as TA of [Linear Algebra I and Mathematics Tutorial Ib](/teaching/) at Nagoya University (Fall 2026)
 - Reading [[HHK](https://arxiv.org/pdf/2602.08176)]
 - Currently reading *Multiple Zeta Values* from Prof. Henrick Bachmann [class notes](https://www.henrikbachmann.com/uploads/7/7/6/3/77634444/mzv_2025_lecture_notes_v23.pdf)
 

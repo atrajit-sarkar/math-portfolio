@@ -40,6 +40,8 @@ navigation:
     url: /
   - title: Publications
     url: /publications/
+  - title: Teaching
+    url: /teaching/
   - title: CV
     url: /cv/
   - title: Posts
@@ -67,6 +69,7 @@ plugins:
 # Exclude from processing
 exclude:
   - README.md
+  - "pdfs/**/*.tex"
   - Gemfile
   - Gemfile.lock
   - node_modules

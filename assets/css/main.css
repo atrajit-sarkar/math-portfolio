@@ -998,6 +998,11 @@ body.home .main-content {
     font-size: 0.9rem;
 }
 
+/* Teaching page */
+.teaching-card .post-header h3 {
+    color: var(--primary-color);
+}
+
 /* Social links */
 .social-links {
     display: flex;

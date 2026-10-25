@@ -1,7 +1,7 @@
-PWD d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions
+PWD D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions
 INPUT C:\Users\atraj\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\main.tex
-OUTPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.log
+INPUT main.tex
+OUTPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.log
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
@@ -252,10 +252,10 @@ INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgf
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.aux
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.aux
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.aux
-OUTPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.aux
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.aux
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.aux
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.aux
+OUTPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.aux
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -264,14 +264,14 @@ INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
-OUTPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.pdf
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
-OUTPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
+OUTPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.pdf
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
+OUTPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -297,13 +297,14 @@ INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.toc
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.toc
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.toc
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.toc
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.toc
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.toc
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-OUTPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.toc
+OUTPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.toc
 INPUT C:\Users\atraj\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -314,9 +315,9 @@ INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.aux
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
-INPUT d:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.aux
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
+INPUT D:\AS\math-portfolio\pdfs\Teaching\TA\Linear ALgebra I and Mathematics Tutorial 1b\quiz3-rank-and-functions\build\main.out
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
@@ -335,6 +336,8 @@ INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\atraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb

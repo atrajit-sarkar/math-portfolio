@@ -49,3 +49,25 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Ignore LaTeX auxiliary/build files (keep the generated PDFs)
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.out
+*.nav
+*.snm
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.xdv
+*.dvi
+*.lof
+*.lot
+*.idx
+*.ilg
+*.ind

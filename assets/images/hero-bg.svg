@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="board" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#2f5a45"/>
+      <stop offset="60%" stop-color="#244a37"/>
+      <stop offset="100%" stop-color="#132c20"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.06 0"/>
+    </filter>
+    <filter id="smudge" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.004 0.012" numOctaves="3" seed="3" result="s"/>
+      <feColorMatrix in="s" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.10 -0.02"/>
+    </filter>
+    <filter id="chalk" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.6" numOctaves="1" seed="11" result="t"/>
+      <feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.6 1.25" result="m"/>
+      <feComposite in="SourceGraphic" in2="m" operator="in"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#board)"/>
+  <rect width="100%" height="100%" filter="url(#smudge)"/>
+  <rect width="100%" height="100%" filter="url(#grain)"/>
+  <g filter="url(#chalk)" font-family="'Segoe Print','Bradley Hand','Comic Sans MS','Chalkboard SE',cursive" fill="#f3f1e7" stroke="none">
+    <g opacity="0.85" font-size="46">
+      <text x="70" y="120">ζ(s) = Σ<tspan font-size="26" dy="14">n≥1</tspan><tspan dy="-14"> 1/nˢ = Π</tspan><tspan font-size="26" dy="14">p</tspan><tspan dy="-14"> (1 − p⁻ˢ)⁻¹</tspan></text>
+      <text x="1150" y="110" font-size="40">ζ(2) = π²/6</text>
+      <text x="1500" y="200" font-size="38" fill="#f6e7a1">ζ(2,1) = ζ(3)</text>
+      <text x="80" y="300" font-size="40">ζ(k₁,…,k<tspan font-size="24" dy="10">r</tspan><tspan dy="-10">) = </tspan>Σ<tspan font-size="24" dy="16">m₁&gt;⋯&gt;m<tspan font-size="18">r</tspan>&gt;0</tspan><tspan dy="-16"> 1 / (m₁<tspan font-size="0.6em" dy="-0.6em">k₁</tspan><tspan dy="0.6em"> ⋯ m</tspan></tspan><tspan font-size="24" dy="10">r</tspan><tspan font-size="0.6em" dy="-34">k</tspan><tspan font-size="24" dy="10">r</tspan><tspan dy="-10">)</tspan></text>
+      <text x="1150" y="380" font-size="40">∮<tspan font-size="24" dy="14">γ</tspan><tspan dy="-14"> f(z) dz = 2πi Σ Res f</tspan></text>
+      <text x="90" y="520" font-size="40" fill="#bfe3f2">∫<tspan font-size="24" dy="14">−∞</tspan><tspan font-size="24" dy="-36">∞</tspan><tspan dy="22"> e<tspan font-size="0.6em" dy="-0.6em">−x²</tspan><tspan dy="0.6em"></tspan> dx = √π</tspan></text>
+      <text x="1330" y="560" font-size="38">det(A − λI) = 0</text>
+      <text x="70" y="720" font-size="38">Γ(s)ζ(s) = ∫<tspan font-size="22" dy="12">0</tspan><tspan font-size="22" dy="-32">∞</tspan><tspan dy="20"> xˢ⁻¹ /(eˣ − 1) dx</tspan></text>
+      <text x="1280" y="740" font-size="38" fill="#f2c2c8">rank A + dim ker A = n</text>
+      <text x="120" y="900" font-size="38">aᵖ ≡ a  (mod p)</text>
+      <text x="560" y="960" font-size="36">∂²u/∂t² = c² ∇²u</text>
+      <text x="1180" y="930" font-size="40" fill="#f6e7a1">e<tspan font-size="0.6em" dy="-0.6em">iπ</tspan><tspan dy="0.6em"></tspan> + 1 = 0</text>
+      <text x="1880" y="1040" text-anchor="end" font-size="30" opacity="0.8">名古屋大学 · Graduate School of Mathematics</text>
+    </g>
+    <g fill="none" stroke="#f3f1e7" stroke-width="3" stroke-linecap="round" opacity="0.6">
+      <circle cx="1770" cy="470" r="85"/>
+      <line x1="1770" y1="470" x2="1845" y2="430"/>
+      <line x1="1670" y1="470" x2="1870" y2="470" stroke-dasharray="6 10"/>
+      <path d="M1802 470 A32 32 0 0 0 1798 455"/>
+      <path d="M680 620 q60 -110 120 0 t120 0 t120 0 t120 0" />
+      <line x1="660" y1="620" x2="1180" y2="620" stroke-dasharray="4 10"/>
+      <path d="M1600 960 L1780 960 L1600 800 Z"/>
+      <path d="M60 210 L1050 210" stroke-width="2" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

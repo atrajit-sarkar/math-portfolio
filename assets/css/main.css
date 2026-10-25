@@ -417,7 +417,7 @@ body.home .main-content {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(10, 10, 30, 0.55);
+    background: radial-gradient(ellipse at center, rgba(8, 22, 15, 0.78) 0%, rgba(8, 22, 15, 0.5) 55%, rgba(8, 22, 15, 0.3) 100%);
     z-index: 1;
 }
 
@@ -1813,7 +1813,7 @@ input[type="checkbox"] {
     .hero {
         padding: 3.5rem 0;
         min-height: 80vh;
-        background-image: url('/assets/images/hero-bg-mobile.png') !important;
+        background-image: url('/assets/images/hero-bg-mobile.svg') !important;
     }
     
     .hero-content {

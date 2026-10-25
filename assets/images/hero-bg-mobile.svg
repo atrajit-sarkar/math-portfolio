@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="board" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#2f5a45"/>
+      <stop offset="60%" stop-color="#244a37"/>
+      <stop offset="100%" stop-color="#132c20"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.06 0"/>
+    </filter>
+    <filter id="smudge" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.004 0.012" numOctaves="3" seed="3" result="s"/>
+      <feColorMatrix in="s" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.10 -0.02"/>
+    </filter>
+    <filter id="chalk" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.6" numOctaves="1" seed="11" result="t"/>
+      <feColorMatrix in="t" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.6 1.25" result="m"/>
+      <feComposite in="SourceGraphic" in2="m" operator="in"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#board)"/>
+  <rect width="100%" height="100%" filter="url(#smudge)"/>
+  <rect width="100%" height="100%" filter="url(#grain)"/>
+  <g filter="url(#chalk)" font-family="'Segoe Print','Bradley Hand','Comic Sans MS','Chalkboard SE',cursive" fill="#f3f1e7" stroke="none">
+    <g opacity="0.85" font-size="52">
+      <text x="60" y="160">ζ(s) = Σ<tspan font-size="30" dy="16">n≥1</tspan><tspan dy="-16"> 1/nˢ</tspan></text>
+      <text x="520" y="330" font-size="50" fill="#f6e7a1">ζ(2,1) = ζ(3)</text>
+      <text x="70" y="470" font-size="50">ζ(2) = π²/6</text>
+      <text x="420" y="640" font-size="46">∮ f(z)dz = 2πi Σ Res</text>
+      <text x="60" y="820" font-size="46" fill="#bfe3f2">∫ e<tspan font-size="0.6em" dy="-0.6em">−x²</tspan><tspan dy="0.6em"></tspan> dx = √π</text>
+      <text x="540" y="1000" font-size="46">det(A − λI) = 0</text>
+      <text x="60" y="1200" font-size="44" fill="#f2c2c8">rank A + dim ker A = n</text>
+      <text x="80" y="1400" font-size="48">aᵖ ≡ a (mod p)</text>
+      <text x="520" y="1560" font-size="48" fill="#f6e7a1">e<tspan font-size="0.6em" dy="-0.6em">iπ</tspan><tspan dy="0.6em"></tspan> + 1 = 0</text>
+      <text x="60" y="1730" font-size="44">∂²u/∂t² = c²∇²u</text>
+      <text x="220" y="1860" font-size="34" opacity="0.8">名古屋大学 · Nagoya University</text>
+    </g>
+    <g fill="none" stroke="#f3f1e7" stroke-width="3.5" stroke-linecap="round" opacity="0.6">
+      <circle cx="860" cy="1280" r="110"/>
+      <line x1="860" y1="1280" x2="955" y2="1225"/>
+      <path d="M100 1000 q50 -90 100 0 t100 0 t100 0"/>
+      <path d="M800 560 L1000 560 L800 400 Z"/>
+    </g>
+  </g>
+</svg>

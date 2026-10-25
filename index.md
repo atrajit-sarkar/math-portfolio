@@ -3,7 +3,7 @@ layout: home
 ---
 
 <!-- Hero Section -->
-<section class="hero" style="background-image: url('/assets/images/hero-bg.jpg')">
+<section class="hero" style="background-image: url('/assets/images/hero-bg.svg')">
     <div class="hero-container">
         <div class="hero-content">
             <div class="hero-image">
@@ -63,7 +63,7 @@ layout: home
 ### `Recent Activities`
 - Appointed as TA of [Linear Algebra I and Mathematics Tutorial Ib](/teaching/) at Nagoya University (Fall 2026)
 - Reading [[HHK](https://arxiv.org/pdf/2602.08176)]
-- Currently reading *Multiple Zeta Values* from Prof. Henrick Bachmann [class notes](https://www.henrikbachmann.com/uploads/7/7/6/3/77634444/mzv_2025_lecture_notes_v23.pdf)
+- Currently reading *Multiple Zeta Values* from Prof. [Henrik Bachmann](https://www.henrikbachmann.com/) [class notes](https://www.henrikbachmann.com/uploads/7/7/6/3/77634444/mzv_2025_lecture_notes_v23.pdf)
 
 <!-- Quick Links Section -->
 <section class="quick-links">

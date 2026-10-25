@@ -13,7 +13,7 @@ excerpt: "This post is about my self study for preparation for にほん。"
 ## Road Map
 1. First I will revise commutative algebra
 2. Then Galios Theory
-3. Then Lecture notes on MZVs by Prof. Henrick Bachmann
+3. Then Lecture notes on MZVs by Prof. [Henrik Bachmann](https://www.henrikbachmann.com/)
 4. Finally if time permits analyse my research interests on specific areas of MZVs like `q-analogues`.
 
 ### Today [2025, August 10]

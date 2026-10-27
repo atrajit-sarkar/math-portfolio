@@ -1,0 +1,113 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+\theoremstyle{definition}
+\newtheorem{example}{Example}[section]
+
+% Attention box for highlighting student solutions: \begin{highlightbox}[Title] ... \end{highlightbox}
+\newtcolorbox{highlightbox}[1][Students' Solutions]{
+    enhanced, breakable,
+    colback=orange!6, colframe=orange!80!black,
+    coltitle=white, fonttitle=\bfseries,
+    title={#1}, arc=2mm, boxrule=0.8pt,
+    borderline west={3pt}{0pt}{orange!80!black},
+    drop fuzzy shadow
+}
+
+\hypersetup{
+    pdftitle={Linear Algebra I \& Mathematics Tutorial Ib - Quiz 4: Linear Maps},
+    pdfauthor={Atrajit Sarkar},
+    pdfsubject={Linear Algebra I \& Mathematics Tutorial Ib, Nagoya University, Fall 2026}
+}
+
+\title{\large Linear Algebra I \& Mathematics Tutorial Ib\\
+\normalsize Nagoya University, Fall 2026\\[1.2em]
+\LARGE Quiz 4: Linear Maps}
+\author{ATRAJIT SARKAR\\ \small Teaching Assistant}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\pagebreak
+
+\section{Comment 1}\label{Comment1}
+
+When you need to find image of any vector $v \in V$ (vector space) under a linear map $f:V \to W$  where ($W$ is another vector space), you only need to find images of basis elements of $V$ under $f$.
+
+For example, let $\{v_1,v_2.\cdots, v_n\}$ be the basis of $V$. Then take any $v\in V$. We can write $v=\sum_{i=1}^n c_iv_i$ for $c_i \in \mathbb{F}$. And hence,
+
+\begin{equation}\label{eq-1}
+    f(v)=f\left(\sum_{i=1}^{n}c_iv_i\right)=\sum_{i=1}^{n}c_if(v_i)  \quad (\text{Using the linearity of }f) 
+\end{equation}
+
+So, if you know $f(v_i) \quad \forall i=1,\cdots, n$, then you know $f(v)$ from \eqref{eq-1}.
+
+\begin{example}
+    In exercise 2. in this quiz, if you can notice that the basis of $\mathbb{R}^2$ is $\{(1,0),(0,1)\}$. So, if you find $f((1,0))$ and $f((0,1))$ you can find $f(v)$ for any $v\in \mathbb{R}^2$. 
+
+    \begin{highlightbox}
+    But how do you find $f(1,0)$ and $f(0,1)$ when it is not obvious? I like how \textbf{Raphael Njauw} solved. Please check his solution \cite{RN} and \textbf{Bipasana Bhattacharya} found the function $F$ in a different way from \hyperref[Comment1]{Comment~\ref*{Comment1}}. But her approach (see \cite{BB}) is a generalisation of the approach of \cite{RN}. 
+
+    \textbf{Dizon Alfonso Miguel Cruz} also found the matrix in a unique way. See his solution here \cite{DAMC}. 
+    \end{highlightbox}
+
+    For example, $f((3,1))=f(3(1,0)+(0,1))=3f((1,0))+f((0,1))=(5,6,-2)$. 
+\end{example}
+
+\section{Comment 2}
+There is a systematic way to find a matrix of a linear map between \textcolor{red}{\textbf{finite dimensional}} vector spaces.
+
+Suppose $f:V\to W$ be a linear map. $V$ has basis $\mathcal{B}_V=\{v_1,\cdots, v_n\}$ and $W$ has basis $\mathcal{B}_W=\{w_1,\cdots w_m\}$ then to find the matrix of $f:= A[f]_{\mathcal{B}_V}^{\mathcal{B}_W}$, write,
+\begin{equation}
+    f(v_i)=\sum_{j=1}^{m}c_{ij}w_j
+\end{equation}
+
+And $A[f]_{\mathcal{B}_V}^{\mathcal{B}_W}=[c_{ij}]_{m\times n}$. Explicitely, your $i$th column of the matrix $A[f]_{\mathcal{B}_V}^{\mathcal{B}_W}$ will be $(c_{i1}\quad c_{i2} \quad \cdots \quad c_{im})^T$.
+
+\begin{example}
+    Here in the quiz in exercise 1, the basis of $\mathbb{R}^3$ is $\{(1,0,0),(0,1,0),(0,0,1)\}$ and similarly for $\mathbb{R}^2$ is $\{(1,0),(0,1)\}$. [We took standard basis here as, if no special basis is specified we work with standard basis.]
+    \begin{equation}\label{eq-3}
+        \begin{aligned}
+            f(1,0,0) &= (1,0) = 1\cdot(1,0)+0\cdot(0,1) \\
+            f(0,1,0) &= (0,3)=0\cdot(1,0)+3\cdot(0,1) \\
+            f(0,0,1) &= (-2,1)=-2\cdot(1,0)+1\cdot(0,1)
+        \end{aligned}
+    \end{equation}
+
+    From \eqref{eq-3} you get your matrix:
+    \[
+        A[f]_{\mathcal{B}_{\mathbb{R}^3}}^{\mathcal{B}_{\mathbb{R}^2}}=
+        \begin{pmatrix}
+            1 & 0 & -2 \\
+            0 & 3 & 1
+        \end{pmatrix}
+    \]
+\textcolor{blue}{\textbf{Note:}} This is a systematic way of writing matrix of a linear function.
+\end{example}
+
+% Student solutions: \bibitem[KEY]{KEY} with KEY = initials of the student's name, cite with \cite{KEY}.
+\begin{thebibliography}{DAMC}
+\addcontentsline{toc}{section}{\refname}
+
+\bibitem[RN]{RN} Raphael Njauw, \emph{Solution to Quiz 4, Exercise 2}, \href{https://www.atraj.it/pdfs/Teaching/TA/Linear%20ALgebra%20I%20and%20Mathematics%20Tutorial%201b/quiz4-linear-maps/Raphael_Njauw_Exercise2.pdf}{PDF}.
+
+\bibitem[BB]{BB} Bipasana Bhattacharya, \emph{Solution to Quiz 4, Exercise 2}, \href{https://www.atraj.it/pdfs/Teaching/TA/Linear%20ALgebra%20I%20and%20Mathematics%20Tutorial%201b/quiz4-linear-maps/Bipasana_Exercise2.pdf}{PDF}.
+
+\bibitem[DAMC]{DAMC} Dizon Alfonso Miguel Cruz, \emph{Solution to Quiz 4, Exercise 2}, \href{https://www.atraj.it/pdfs/Teaching/TA/Linear%20ALgebra%20I%20and%20Mathematics%20Tutorial%201b/quiz4-linear-maps/Dizon_Alfonso_Miguel_Cruz_Exercise2.pdf}{PDF}.
+
+\end{thebibliography}
+\end{document}

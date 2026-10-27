@@ -19,7 +19,8 @@ ehthumbs.db
 Thumbs.db
 
 # Ignore editor files
-.vscode/
+.vscode/*
+!.vscode/*.code-snippets
 .idea/
 *.swp
 *.swo

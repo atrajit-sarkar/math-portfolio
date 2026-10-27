@@ -1,4 +1,4 @@
-# Create a new LaTeX folder with main.tex generated from templates/tex/minimal.tex.
+# Create a new LaTeX folder with main.tex generated from templates/tex/TA-template.tex.
 # Usage:
 #   .\new-tex.ps1 -Path "pdfs/Teaching/TA/<course folder>/quiz4-topic" -Title "Quiz 4: Topic - Comments"
 param(
@@ -8,10 +8,10 @@ param(
     [string]$Term = "Fall 2026"
 )
 
-$template = Join-Path $PSScriptRoot "templates/tex/minimal.tex"
+$template = Join-Path $PSScriptRoot "templates/tex/TA-template.tex"
 $target = Join-Path $Path "main.tex"
 
-if (Test-Path $target) {
+if ((Test-Path $target) -and (Get-Item $target).Length -gt 0) {
     Write-Error "$target already exists; not overwriting."
     exit 1
 }

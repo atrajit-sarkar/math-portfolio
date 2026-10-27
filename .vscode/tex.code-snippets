@@ -1,0 +1,59 @@
+{
+	// Mirrors templates/tex/TA-template.tex. Type "TA-template" in any .tex file and press Tab.
+	"TA-template": {
+		"scope": "latex,tex",
+		"prefix": ["TA-template"],
+		"description": "Full main.tex boilerplate (title page, TOC, first section)",
+		"body": [
+			"\\documentclass{article}",
+			"\\usepackage{graphicx} % Required for inserting images",
+			"\\usepackage{amssymb}",
+			"\\usepackage{amsmath}",
+			"\\usepackage{amsthm}",
+			"\\usepackage{hyperref}",
+			"\\usepackage{float}",
+			"\\usepackage{pgfplots}",
+			"\\pgfplotsset{compat=1.18}",
+			"",
+			"\\theoremstyle{definition}",
+			"\\newtheorem{example}{Example}[section]",
+			"",
+			"\\hypersetup{",
+			"    pdftitle={${2:Linear Algebra I \\& Mathematics Tutorial Ib} - ${1:Quiz N: Topic - Comments}},",
+			"    pdfauthor={Atrajit Sarkar},",
+			"    pdfsubject={$2, Nagoya University, ${3:Fall 2026}}",
+			"}",
+			"",
+			"\\title{\\large $2\\\\\\\\",
+			"\\normalsize Nagoya University, $3\\\\\\\\[1.2em]",
+			"\\LARGE $1}",
+			"\\author{ATRAJIT SARKAR\\\\\\\\ \\small Teaching Assistant}",
+			"\\date{\\today}",
+			"",
+			"\\begin{document}",
+			"",
+			"\\maketitle",
+			"",
+			"\\tableofcontents",
+			"",
+			"\\pagebreak",
+			"",
+			"\\section{${4:Comment 1}}\\label{Comment1}",
+			"",
+			"$0",
+			"",
+			"\\end{document}"
+		]
+	},
+	// Needs the example environment defined in TA-template. Type "example" and press Tab.
+	"Example environment": {
+		"scope": "latex,tex",
+		"prefix": ["example"],
+		"description": "\\begin{example}[title] ... \\end{example}",
+		"body": [
+			"\\begin{example}[${1:title}]",
+			"\t$0",
+			"\\end{example}"
+		]
+	}
+}

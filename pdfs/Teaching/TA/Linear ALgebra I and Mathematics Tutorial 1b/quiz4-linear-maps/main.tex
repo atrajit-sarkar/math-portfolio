@@ -99,6 +99,35 @@ And $A[f]_{\mathcal{B}_V}^{\mathcal{B}_W}=[c_{ij}]_{m\times n}$. Explicitely, yo
 \textcolor{blue}{\textbf{Note:}} This is a systematic way of writing matrix of a linear function.
 \end{example}
 
+\section{Comment 3}
+\textbf{Yuka Nakao} solved the Exercise 1's second part in a unique way. She assumed that whatif $g$ be a linear function and found its matrix representation from the given fromula of $g$. So, she used the idea in \hyperref[Comment1]{Comment~\ref*{Comment1}} to find the matrix of g which is:
+
+$$
+A[g]_{\mathcal{B}_{\mathbb{R}^2}}^{\mathcal{B}_{\mathbb{R}^2}}=
+\begin{pmatrix}
+    1&2\\
+    0&1
+\end{pmatrix}
+$$
+where no basis is mentioned so we took standard basis of $\mathbb{R}^2$ which is: $\mathcal{B}_{\mathbb{R}^2}=\{(1,0),(0,1)\}$.
+
+But then she showed that 
+
+$$
+A[g]_{\mathcal{B}_{\mathbb{R}^2}}^{\mathcal{B}_{\mathbb{R}^2}} 
+\begin{pmatrix}
+    x_1\\
+    x_2
+\end{pmatrix}
+\neq
+\begin{pmatrix}
+    x_1+2x_2\\
+    x_2^2
+\end{pmatrix}
+$$
+
+So, $g$ has no matrix representation and this means $g$ is not linear. Her original proof is a little messy so, I refined it here. 
+
 % Student solutions: \bibitem[KEY]{KEY} with KEY = initials of the student's name, cite with \cite{KEY}.
 \begin{thebibliography}{DAMC}
 \addcontentsline{toc}{section}{\refname}
